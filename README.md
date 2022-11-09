@@ -24,7 +24,7 @@
 
 Good luck and we hope to see you on the QUIZ Hall of Fame!
 
-When you ready click on Start Quiz 
+
   
   ## Usage
  To take the quiz just go to  https://gabrielalinhares.github.io/superquizjs/
