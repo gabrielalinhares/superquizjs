@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS QUIZ</title>
+    <link rel="stylesheet" href="./assets/style.css"> <!--access to style sheet-->
+</head>
+
+<body>
+
+    <div id="container"><!-- Calling container -->
+        <header>
+            <p id="timer">Time: 0</p><!-- Calling countdown -->
+            <button id="ScoreBtn">QUIZ Hall of Fame</button> <!-- Access High scores history  -->
+        </header>
+        <div id="home"> <!-- First screen-->
+            <h2>****** JavaScript Fundamentals QUIZ ******</h2>
+            <h3>Test you JavaScript knowledges with this QUIZ!</h3>
+
+              <p> # RULES #</p>
+<ul>
+          <p> 1-  Once you click on "Start Quiz" button a coutndown will start</p>
+          <p>2- The next Question will just show up once you answer the one in the screen</p>
+          <p> 3- Everytime you chose the wrong answer, 10 seconds will be deducted from your Time</p>
+          <p> 4- You will start with 75 seconds </p>
+          <p> 5- The goal is to finish the QUIZ as fast as possible in order to have a high score and be on our  QUIZ hall of fame</p>
+          <p> 6- The QUIZ will finish once the questions are done / the countdown hits zero
+            </ul>
+               <p> Good luck and we hope to see you on the  QUIZ Hall of Fame! </p>
+
+               <p>  When you ready click on Start Quiz</p>
+            
+            <button id="start">Start QUIZ</button> <!-- Button to activate listener -->
+        </div>
+
+        <div id="resultCard">
+            <h4 id="result"></h4>
+        </div>
+
+        <div id="questionCard">
+            <h3 id="question"></h3>
+            <button id="A" class="choice"></button>
+            <br>
+            <button id="B" class="choice"></button>
+            <br>
+            <button id="C" class="choice"></button>
+            <br>
+            <button id="D" class="choice"></button>
+            <br>
+        </div>
+
+        <div id="scoreCard">
+            <h5 id="yourScore"></h5>
+            <h3>All done!</h3>
+            <p> Enter initial: </p>
+            <input id="name"></input>
+            <button id="save">Submit</button>
+        </div>
+
+        <div id="rankingCard">
+            <h3>QUIZ Hall of Fame </h3>
+            <ol id="orderedList"></ol>
+            <button id="returnBtn">Go back</button>
+            <button id="clearScoresBtn">Clear high scores</button>
+        </div>
+    </div>
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
