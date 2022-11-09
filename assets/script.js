@@ -182,9 +182,11 @@ function clearScoresFt() {
 }
 
 //Event Listeners
+
+returnBtnEl.addEventListener("click", goBackFt);
+saveEl.addEventListener("click", saveFt);
+clearScoresBtnEl.addEventListener("click", clearScoresFt);
+ScoreBtnEl.addEventListener("click", rankingFt);
 startEl.addEventListener("click", startFt);
 cardQstnEl.addEventListener("click", choiceFt);
-saveEl.addEventListener("click", saveFt);
-ScoreBtnEl.addEventListener("click", rankingFt);
-returnBtnEl.addEventListener("click", goBackFt);
-clearScoresBtnEl.addEventListener("click", clearScoresFt);
+
